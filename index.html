@@ -2,104 +2,272 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" inte<link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
     <title>Gonzalo</title>
 </head>
 
 <body>
-    <header>
-        <div class="hero-text-box">
-            <h1>Gonzalo Betancourt</h1>
-            <span id="subtitles">Always learning new programming technologies.<br>I am currently seeking a software
-                engineer internship for summer 2020.</span>
-
-            <a class="button button-full" href="#resume">Resume</a>
-            <a class="button button-ghost" href="#projects">Projects</a>
-
+    <header class="">
+        <div class="tm-site-header">
         </div>
-        <nav>
-            <div class="row">
-                <img src="resources/css/background.jpg" alt="Omnifood logo" class="logo">
-                <ul class="main-nav">
-                    <li> <a href="#">About me</a> </li>
-                    <li> <a href="https://linkedin.com/in/gonzalo-b24" target="_blank"
-                            alt="Gonzalo's LinkedIn page">Linkedin</a> </li>
-                    <li> <a href="https://github.com/gonzalob24" target="_blank" alt="Gonzalo's github page">Github</a>
-                    </li>
-
-                </ul>
+        <div class="tm-site-header-overlay">
+            <div class="tm-header-stripe ml-auto"></div>
+            <div class="tm-header-stripe tm-header-stripe-short ml-auto"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 tm-site-header-left">
+                        <h1 class="text-uppercase tm-site-name">Gonzalo Betancourt</h1>
+                        <p class="text-white mb-0 tm-site-desc">Web Development <i class="fas fa-plus"> </i>Machine
+                            Learning</p>
+                    </div>
+                    <div class="col-lg-8 tm-site-header-right">
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                                        class="fas fa-bars text-white"></i></span></button>
+                            <!-- Collapsible content -->
+                            <div class="collapse navbar-collapse tm-nav" id="navbarNav">
+                                <!-- Links -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link tm-nav-link" href="#welcome-section">Home <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="#projects">Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="#contact">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="#education">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link tm-nav-link" href="#my-story">My Story</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </div>
+        <div class="tm-header-stripe w-100"></div>
     </header>
 
-    <section class="section-features">
-        <div class="row">
-            <ion-icon name="code-working" class="icon-big"></ion-icon>
-            <h2>About Gonzalo</h2>
-            <p class="long-copy">I am computer science major at the <strong>University of Houston-Clear Lake</strong>.
-                Will graduate in December 2020 with a focus on being a full stack software engineer. Currently, I am
-                also concentrating on developing skills as a data analyst with an emphasis in Machine Learning.
-            </p>
+    <div class="container-fluid px-0">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="./resources/img/background.jpg">
+            <div class="containter ml-5 parallax">
+                <div class="row">
+                    <!-- <h4 id="in-parallax-heading">Gonzalo</h4> col-md-12 col-lg-4-->
+                    <p class="col-sm-10 col-xl-6" id="in-parallax-text">My passion is designing whether it be
+                        web development or machine learning applications. Web development and machine
+                        learning may seem like two completely different fields, but I find them to be very similar. They
+                        both allow me to play with different ideas and from trial and error come up with a product that
+                        I am
+                        very happy to show off.</p>
+                </div>
+            </div>
 
         </div>
-
-        <div class="row">
-            <div class="col span-1-of-3 box">
-                <ion-icon name="infinite" class="icon-big"></ion-icon>
-                <h3>Data Analysis and Visualization</h3>
-                <p>I am currently taking a Data Analysis course on Udemy and will be completing a few projects
-                    throughout this semester.
-                </p>
-            </div>
-
-            <div class="col span-1-of-3 box">
-                <ion-icon name="alarm" class="icon-big"></ion-icon>
-                <h3>Machine Learning</h3>
-                <p>I am enrolled in Machine Learning at UHCL. There will be a project that we need to turn in towards
-                    the end of the semester. In the mean time I will continue to learn about Machine Learning by working
-                    on small datasets and using Pyhon with Scikit Learn to predict values using various ML techniques.
-                </p>
-            </div>
-
-            <div class="col span-1-of-3 box">
-                <ion-icon name="bug" class="icon-big"></ion-icon>
-                <h3>Web development</h3>
-                <p>I enjoy learning new technologies. I am currently gaining knowledge in HTML and CSS. My project for
-                    this topic is to build a websote for a convenience store in Everette, WA that also sells food. I
-                    will develop the front and back end of the website.
-                </p>
+    </div>
+    <section id="projects">
+        <h2 class="text-center text-white font-weight-light text-uppercase">Select Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 div-size mt-5 project-tile">
+                    <h3
+                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
+                        RGB Color Game <span class="idea-from">Inspired by: Colt Steel</span> <span
+                            class="idea-from">Put to practice HTML, CSS and JavaScript</span></h3>
+                    <!-- <p class="p-2 pb-4 m-0 bg-dark"> Put to practice HTML, CSS and JavaScript.
+                    </p> -->
+                    <div class="tm-header-stripe w-100"></div>
+                    <a href="./resources/pages/guessColor.html" target=="_blank"> <img class="image-resize" img
+                            src="./resources/img/guessColor.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-12 col-lg-6 div-size mt-5 project-tile">
+                    <h3
+                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
+                        Weather App</h3>
+                    <div class="tm-header-stripe w-100"></div>
+                    <a href=""> <img class="image-resize "
+                            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2560&q=80"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-md-12 col-lg-6 div-size mt-5 project-tile">
+                    <h3
+                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
+                        Predict Stock Prices</h3>
+                    <div class="tm-header-stripe w-100"></div>
+                    <a href=""> <img class="image-resize "
+                            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2560&q=80"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-md-12 col-lg-6 div-size mt-5 project-tile">
+                    <h3
+                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
+                        Title Page</h3>
+                    <div class="tm-header-stripe w-100"></div>
+                    <a href=""> <img class="image-resize" img
+                            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2560&q=80"
+                            alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="section-steps">
+    <section id="education">
+        <h2 class="text-center text-white font-weight-light text-uppercase bg-dark">Education <i
+                class="fas fa-plus text-white"></i> Online Learning</h2>
+        <div class="container">
+            <div class="row pb-5 mt-5">
+                <div class="col-lg-12 pl-0">
+                    <h3 class="text-dark">Bachelor's in Computer Science </h3>
+                    <span>University of Houston - Expected Gradaute December 2020</span>
+                </div>
+            </div>
+            <div class="row text-white">
+                <table class="col-lg-12 text-dark font-weight-light mb-5" id="edu-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Location</th>
+                            <th scope="col">Courses</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="title">
+                            <td>Responsive Web Design Certification <p class="location-name">freeCodeCamp</p>
+                            </td>
+                            <td> 4 Courses </td>
+                            <td>Earned Certificate</td>
+                        <tr>
+                        <tr>
+                            <td rowspan="4"></td>
+                            <td>Basic HTML / HTML5 / CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Applied Visual Design &amp; Accessebility</td>
+                        </tr>
+                        <tr>
+                            <td>Responsive Web Design</td>
+                        </tr>
+                        <tr>
+                            <td>CSS FlexBox &amp; Grid</td>
+                        </tr>
 
-        <h2 id="resume">Resume</h2>
+                        <tr class="title">
+                            <td>Responsive Web Design
+                                <p class="location-name">University of Michigan</p>
+                            </td>
+                            <td>5 Courses</td>
+                            <td>Finishing Capstone</td>
+                        </tr>
 
+                        <tr>
+                            <td rowspan="5"></td>
+                            <td>Introduction to HTML</td>
+                        </tr>
+                        <tr>
+                            <td>Introduction to CSS3</td>
+                        </tr>
+                        <tr>
+                            <td>Interactivity with JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Styling with Responsive Design</td>
+                        </tr>
+                        <tr>
+                            <td>Web Design for Everybody Capstone</td>
+                        </tr>
 
-        <div class="row">
-
-            <iframe src="resources/img/Resume_2019.pdf" alt="Gonzalo's Resume" frameborder="0" marginwidth="0"
-                marginheight="0" scrolling="no"
-                style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
-                allowfullscreen></iframe>
-
+                    </tbody>
+                </table>
+            </div>
         </div>
-
     </section>
 
-    <section class="section-cities">
-        <div class="row">
-            <h2 id="projects">Projects</h2>
-        </div>
-        <div class="col span-1-of-4">
-
+    <section id="my-story">
+        <h2 class="text-center text-white font-weight-light text-uppercase">My Story</h2>
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-lg-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tenetur doloribus ipsam
+                        laudantium adipisci aliquid eos? Nihil eius nesciunt velit molestiae itaque quibusdam
+                        repudiandae, maxime hic? Veritatis facere eum incidunt vitae nisi, quaerat mollitia repellat
+                        ducimus alias? Cupiditate nostrum repellat corrupti quasi enim sit sapiente cumque eum itaque.
+                        Impedit animi modi aliquam sed dolores cum quam. Ut magnam incidunt commodi doloribus aliquam.
+                        Maiores error odio ipsam laudantium modi dicta excepturi voluptas tempora obcaecati tempore
+                        recusandae minus itaque enim quidem quisquam corrupti ipsum, explicabo veritatis repellat
+                        perferendis deleniti quod fugit aut? Suscipit eaque quis quas. Sunt explicabo perferendis
+                        officiis ea consequuntur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id, autem saepe, architecto enim
+                        dolores nam earum ratione amet doloremque magni soluta fugit tempore sit? Quo adipisci eaque
+                        sint unde nam sit dolorum, repudiandae totam, asperiores exercitationem optio voluptas! Impedit
+                        porro amet illo beatae consequatur consequuntur, dolorem blanditiis laudantium dolor accusamus,
+                        iure maiores. Voluptas tenetur illum ea ab, suscipit nesciunt! In praesentium possimus dolorem
+                        repellat, perferendis corporis accusantium voluptatibus doloribus soluta. Corporis inventore
+                        animi iste quibusdam, dolorum magnam exercitationem delectus voluptatibus, eligendi doloremque
+                        excepturi autem quisquam tenetur aliquid perferendis molestiae dolores provident architecto
+                        saepe natus in nihil nobis totam! Neque!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus id, autem saepe, architecto enim
+                        dolores nam earum ratione amet doloremque magni soluta fugit tempore sit? Quo adipisci eaque
+                        sint unde nam sit dolorum, repudiandae totam, asperiores exercitationem optio voluptas! Impedit
+                        porro amet illo beatae consequatur consequuntur, dolorem blanditiis laudantium dolor accusamus,
+                        iure maiores. Voluptas tenetur illum ea ab, suscipit nesciunt! In praesentium possimus dolorem
+                        repellat, perferendis corporis accusantium voluptatibus doloribus soluta. Corporis inventore
+                        animi iste quibusdam, dolorum magnam exercitationem delectus voluptatibus, eligendi doloremque
+                        excepturi autem quisquam tenetur aliquid perferendis molestiae dolores provident architecto
+                        saepe natus in nihil nobis totam! Neque!</p>
+                </div>
+            </div>
         </div>
     </section>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul>
+                        <li class="contact"><i class="fab fa-github-alt"></i> Github</li>
+                        <li class="contact"><i class="fab fa-linkedin"></i> LinkedIn</li>
+                        <li class="contact"><i class="fab fa-codepen"></i> CodePen</li>
+                    </ul>
+                    <p>The best way to get a hold me is by email: <a class="contact"
+                            href="mailto:gonzalobetancourt@me.com">gonzalobetancourt@me.com</a></p>
+                    <p>I am always connected to GitHub and LinkedIn</p>
+                </div>
+                <div class="col-lg-3">
+                    <p>Feel free to review some of <span id="my-code">my code</span></p>
+                </div>
+            </div>
+            <!-- <div id="go-top">
+                <i class="fas fa-arrow-up"></i>
+            </div> -->
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./resources/js/parallax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
