@@ -109,7 +109,7 @@ h3 {
 }
 
 .parallax-window {
-    min-height: 50vh;
+    min-height: 45vh;
     background: transparent;
     /* background: url(../img/background.jpg); */
 
@@ -131,7 +131,7 @@ h3 {
 }
 
 #in-parallax-text {
-    top: 60%;
+    top: 50%;
     font-size: 1.25rem;
 }
 
@@ -174,7 +174,7 @@ section .project-title {
 }
 
 section div .div-size {
-    height: 30rem;
+    height: 40rem;
     width: 100%;
     margin-bottom: 180px;
 }
@@ -221,6 +221,7 @@ td, th {
 #education {
     /* background:#4fbafd; */
     background: #dcdde1;
+    /* background: transparent; */
     /* background: pink; */
     color: black;
     font-size: 1.25rem;
