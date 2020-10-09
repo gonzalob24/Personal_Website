@@ -1,3 +1,4 @@
+/* --------- Body --------- */
 body {
     font-family: Lato;
     Color: black;
@@ -5,36 +6,7 @@ body {
     background-color: #323232;  
 }
 
-a { 
-    transition: all 0.3s ease; 
-    text-decoration: none;
-    color: white;
-}
-
-a:hover { 
-    text-decoration: none; 
-}
-button:focus { 
-    outline: none; 
-}
-
-p, address {
-  color: #666;
-  line-height: 1.9;    
-}
-
-address { max-width: 400px; }
-ul, i { color: #666; }
-ul { line-height: 2; }
-
-h2 {
-    background: #2d3436;
-}
-
-h3 {
-    color: white;
-    font-weight: 400;
-}
+/* --------- Header --------- */
 .fa-plus {
     color: #323232;
     margin-left: 2px;
@@ -45,7 +17,7 @@ h3 {
 .tm-site-header {
     background-color: #474849;
     background-image: url(../img/stripe.png);
-    height: 45px;    
+    height: 40px;    
 }
 
 .tm-site-header-overlay {
@@ -108,39 +80,67 @@ h3 {
   color: white;
 }
 
+.navbar-toggler {
+        margin-left: auto;
+        background-color: #656667;
+        border-radius: 0;
+}
+
+.navbar-toggler i { font-size: 1.8rem; }
+
+/* --------- a tags and buttons --------- */
+
+a { 
+    transition: all 0.3s ease; 
+    text-decoration: none;
+    color: white;
+}
+
+a:hover { 
+    text-decoration: none; 
+}
+button:focus { 
+    outline: none; 
+}
+
+/* p, address {
+  color: #666;
+  line-height: 1.9;    
+} */
+
+/* address { max-width: 400px; } */
+
+/* --------- heading and ul --------- */
+
+ul, i { color: #666; }
+ul { line-height: 2; }
+
+h2 {
+    background: #2d3436;
+}
+
+h3 {
+    color: white;
+    font-weight: 400;
+}
+
+/* --------- Parallax Window --------- */
 .parallax-window {
     min-height: 45vh;
     background: transparent;
-    /* background: url(../img/background.jpg); */
-
 }
 
-.text-box{
-	height: 600px;
-	padding: 50px;
-}
-
-#in-parallax-heading, #in-parallax-text {
+.in-parallax-text {
     padding-left: 10px;
     position: absolute;
-    color: white;
-    top: 45%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    color: #ffffff;
+    padding-top: 60px;
+    font-size: 0.98rem;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
-#in-parallax-text {
-    top: 50%;
-    font-size: 1.25rem;
-}
-
-#welcome-section {
-    background: #2c3e50;
-}
-#welcome-design {
-    height: 82vh;
-}
+/* --------- Project Tiles --------- */
 
 section .project-title {
     font-size: 2.5rem;
@@ -188,15 +188,7 @@ section div .div-size {
     color: black;
 }
 
-/* .scrolling {
-     background: #aa5ba0 !important;
-     transition: background 500ms;
- } */
-
- #navbar-header {
-    font-size: 1.5rem;
-}
-
+/* --------- Education --------- */
 thead {
     background: rgba(147,206,222,1);
     background: -moz-linear-gradient(left, rgba(147,206,222,1) 19%, rgba(143,204,220,1) 23%, rgba(117,189,209,1) 53%, rgba(97,178,201,1) 74%, rgba(73,165,191,1) 100%);
@@ -234,16 +226,20 @@ td, th {
     color: #050505;
 }
 
+/* --------- My Story --------- */
+
 #my-story {
     margin: 0px 0px;
+    background: #545454;
 }
 
 p {
     margin: 15px 0;
-    color: gray;
+    color: #b7b7b7;
 }
 
 #footer {
+    /* background: #34495e; */
     background: #34495e;
 
 }
@@ -290,81 +286,23 @@ i {
     transition: background 0.425s ease;
 }
 
-@media (max-width: 992px) {
-    .tm-site-header-left {
-        padding-top: 30px;
-        padding-bottom: 30px;
+@media screen and (min-width: 750px) { 
+     .in-parallax-text {
+        font-size: 1.25rem;
+        letter-spacing: 1px;
     }
+ } 
 
-    .tm-site-header-right {
-        position: absolute;
-        right: 0;        
-        padding-top: 50px;
-        padding-bottom: 0;
-    }
-
-    .navbar-toggler {
-        margin-left: auto;
-        background-color: #656667;
-        border-radius: 0;
-    }
-
-    .navbar-toggler i { font-size: 1.8rem; }
-
-    .tm-nav {        
-        position: relative;
-        max-width: 200px;
-    }
-
-    #navbarNav {
-        position: absolute;
-        right: 16px;
-        top: 46px;
-        z-index: 1000;
-    }
-
-    .tm-nav ul {
-        background-color: #656667;
-        padding-left: 12px;  
-        padding-right: 12px;      
-    }
-
-    .nav-item {
-        margin-right: 0;
-        text-align: center;
-    }
-
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .tm-icon-1 {
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-
-    .tm-page-cols-container { flex-direction: column; }
+  @media screen and (max-width: 900px) {
     
-    .tm-page-col-left {
-      width: 100%;
-      max-width: 920px;
-      padding-left: 20px;
-      padding-right: 20px;      
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .tm-page-col-right {
-      width: 100%;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
+} 
 
-    .tm-contact-left,
-    .tm-contact-right {
-      max-width: 100%;
+ @media screen and (min-width: 1200px) {
+     .in-parallax-text {
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding-bottom: 0; 
+        /* padding-top: 0;  */
+        letter-spacing: 1px;
     }
-
-    .tm-contact-left { margin-bottom: 120px; }
-}
+ }
