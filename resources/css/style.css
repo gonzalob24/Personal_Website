@@ -129,7 +129,7 @@ h3 {
     position: absolute;
     color: #ffffff;
     padding-top: 10px;
-    font-size: 1.0rem;
+    font-size: 1.8rem;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -280,18 +280,21 @@ i {
     transition: background 0.425s ease;
 }
 
+
+@media screen and (min-width: 492px) {
+    .in-parallax-text {
+        font-size: 0.93rem;
+    }
+}
+
 @media screen and (min-width: 750px) { 
      .in-parallax-text {
         font-size: 1.22rem;
         letter-spacing: 1px;
     }
  } 
-
-  @media screen and (max-width: 900px) {
-    
-} 
-
- @media screen and (min-width: 1200px) {
+ 
+@media screen and (min-width: 1200px) {
      .in-parallax-text {
         font-size: 1.36rem;
         font-weight: 400;
