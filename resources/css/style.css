@@ -103,12 +103,6 @@ button:focus {
     outline: none; 
 }
 
-/* p, address {
-  color: #666;
-  line-height: 1.9;    
-} */
-
-/* address { max-width: 400px; } */
 
 /* --------- heading and ul --------- */
 
@@ -134,9 +128,9 @@ h3 {
     padding-left: 10px;
     position: absolute;
     color: #ffffff;
-    padding-top: 60px;
-    font-size: 0.98rem;
-    font-weight: 300;
+    padding-top: 10px;
+    font-size: 1.0rem;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -288,7 +282,7 @@ i {
 
 @media screen and (min-width: 750px) { 
      .in-parallax-text {
-        font-size: 1.25rem;
+        font-size: 1.22rem;
         letter-spacing: 1px;
     }
  } 
@@ -299,7 +293,7 @@ i {
 
  @media screen and (min-width: 1200px) {
      .in-parallax-text {
-        font-size: 1.4rem;
+        font-size: 1.36rem;
         font-weight: 400;
         padding-bottom: 0; 
         /* padding-top: 0;  */
