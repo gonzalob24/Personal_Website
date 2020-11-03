@@ -114,8 +114,8 @@ div ul li a{
     width: 26vw;
     max-width: 450px;
     position: absolute;
-    right: 4.6vw;
-    top: 9vh;
+    right: 5.3vw;
+    top: 18vh;
     border-radius: 50%;
     box-shadow:  4px 2px #888888;
 }
@@ -154,17 +154,19 @@ div ul li a{
 /* --------- Project Tiles --------- */
 
 section .project-title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     height: 120px;
     margin: 0 auto;
     clear: none;
     font-weight: 400;
+    text-align: center;
 }
 
 .idea-from {
-    font-size: 0.90rem;
-    color: rgba(142, 68, 173, 1);
-    font-weight: 400;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 300;
+    padding-left: 4px;
 }
 
 #projects p {
@@ -250,12 +252,12 @@ p {
 
 /* --------- Footer --------- */
 
-#footer {
+#contact {
     /* background: #34495e; */
     background: #34495e;
 }
 
-#footer p {
+#contact p {
     color: white;
 }
 
@@ -263,12 +265,12 @@ i {
     padding-right: 10px;
 }
 
-#footer ul {
+#contact ul {
     margin-top: 20px;
     padding: 0;
 }
 
-#footer ul li{
+#contact ul li{
     margin: 0 auto;
     color: white;
     list-style: none;
@@ -316,7 +318,7 @@ footer > nav {
     background: #323232;
     color: white;
     position: fixed;
-    font-size: 12px;
+    font-size: 0.65rem;
     z-index: 9;
     text-align: center;
 }
@@ -370,12 +372,18 @@ ul {
     }
 
     footer nav {
-        background: #2f3542;
+        /* background: #2f3542; */
+        background: #9fa2a3;
+        transition: 0.5s ease-in;
         bottom: 0;
     }
-    /* #logo-name {
-        padding-top: 35px;  
-    } */
+}
+
+#footer-mobile{
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
 }
 
 /* 
