@@ -202,7 +202,26 @@ section div .div-size {
 }
 
 /* --------- Education --------- */
+.table-header {
+    background: #dcdde1;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.table-header h3 {
+    color: black;
+}
+
+.table-header p {
+    color: black;
+}
+
 thead {
+    background: #2f3542;
+}
+
+/* thead {
     background: rgba(147,206,222,1);
     background: -moz-linear-gradient(left, rgba(147,206,222,1) 19%, rgba(143,204,220,1) 23%, rgba(117,189,209,1) 53%, rgba(97,178,201,1) 74%, rgba(73,165,191,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(19%, rgba(147,206,222,1)), color-stop(23%, rgba(143,204,220,1)), color-stop(53%, rgba(117,189,209,1)), color-stop(74%, rgba(97,178,201,1)), color-stop(100%, rgba(73,165,191,1)));
@@ -212,7 +231,7 @@ thead {
     background: linear-gradient(to right, rgba(147,206,222,1) 19%, rgba(143,204,220,1) 23%, rgba(117,189,209,1) 53%, rgba(97,178,201,1) 74%, rgba(73,165,191,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
     margin-left: 5px;
-}
+} */
 
 .title:hover {
     background: rgba(147,206,222,1);
@@ -229,14 +248,14 @@ td, th {
     /* background: transparent; */
     /* background: pink; */
     color: black;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 }
 
-.location-name {
+.course-institution {
     margin-top: 0;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 400;
-    color: #050505;
+    color: white;
 }
 
 /* --------- My Story --------- */
@@ -286,12 +305,12 @@ i {
     color: white;
 }
 
-#foote p {
+#footer p {
     margin-bottom: 100px;
 }
 
 .contact {
-    font-size: 1.45rem;
+    font-size: 1.2rem;
     padding: 10px;
     border-radius: 5%;
     margin-left: 5px;
@@ -373,7 +392,9 @@ ul {
 
     footer nav {
         /* background: #2f3542; */
-        background: #9fa2a3;
+        /* background: #9fa2a3; */
+        background: #545454;
+
         transition: 0.5s ease-in;
         bottom: 0;
     }
