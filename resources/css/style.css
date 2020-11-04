@@ -112,10 +112,10 @@ div ul li a{
 
 #me {
     width: 26vw;
-    max-width: 450px;
+    max-width: 290px;
     position: absolute;
     right: 5.3vw;
-    top: 18vh;
+    /* top: 18vh; */
     border-radius: 50%;
     box-shadow:  4px 2px #888888;
 }
