@@ -11,10 +11,10 @@ body {
 	height: 100vh;
 }
 
-iframe::-webkit-scrollbar {
+/* iframe::-webkit-scrollbar {
 	display: none;
 	overflow: hidden;
-}
+} */
 
 /*
 .test #wrapper {
