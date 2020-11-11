@@ -10,6 +10,12 @@ body {
 #resume .row {
 	height: 100vh;
 }
+
+iframe::-webkit-scrollbar {
+	display: none;
+	overflow: hidden;
+}
+
 /*
 .test #wrapper {
 	width: 100%;
