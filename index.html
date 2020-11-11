@@ -1,324 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./resources/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Gonzalo Betancourt</title>
+	</head>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./resources/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
-    <title>Gonzalo</title>
-</head>
-
-<body>
-    <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/resources/img/ML2.jpg"></div>   -->
-    <header class="name container-fluid p-0">
-        <nav class="navbar navbar-expand-lg">                        
-            <li class="navbar-brand" href="#gonzalo" id="gonzalo">Gonzalo Betancourt</li>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
-                </button>
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <!-- Links -->
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about-me">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#my-story">My Story</a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-    </header>
-    <section class="container-fluid p-0" id="about-me">
-        <h2 class="text-center text-white font-weight-light text-uppercase">About Me</h2>
-        <div class="row">
-            <img class="" src="/resources/img/me.jpg" alt="Picture of developer" id="me">          
-            <p class="col-sm-8 col-lg-6 pl-5 text-white">
-                I am currently a senior at the University of Houston – Clear Lake, majoring in computer science
-                and will graduate this December. This year, I focused on participating in internships and
-                designing projects using various front and back end tools. I recently completed an internship at
-                NASA where I developed 2 Python modules that were used for machine learning. For my senior
-                project, I am creating a sports data API using machine learning for NBA game predictions. My proposal
-                was one of the four out of the 30 proposals to be selected.
-                <br>
-                <br>
-                My passion is designing web development or machine learning applications. They may seem
-                like two completely different fields, but I find them to be very similar. They both allow me to
-                play with different ideas: through trial and error, I develop a product I am ecstatic to
-                share.
-            </p>
-            <p class="col-12 pl-5" id="web-ml">
-                <span>Web Development</span>
-                <span><i class="fas fa-plus p-1"></i></span>
-                <span>Machine Learning</span>
-            </p>
-        </div>
-    </section>
-    <section class="container-fluid p-0" id="projects">
-        <h2 class="text-center text-white font-weight-light text-uppercase">Portfolio</h2>
-        <!-- Use class container-fluid -->
-        <div class="container-fluid mt-5">
-            <div class="row mb-5 justify-content-center">
-                <div class="col-md-10 mr-lg-5 col-lg-5 project-tile p-0 mb-5">
-                    <h3
-                        class="display-3 text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
-                        RGB Color Game <span class="idea-from">Inspired by: Colt Steel</span> <span
-                            class="idea-from">Used HTML, CSS, JavaScript &amp JQuery</span>
-                    </h3>
-                    <!-- <p class="p-2 pb-4 m-0 bg-dark"> Put to practice HTML, CSS and JavaScript.
+	<body>
+		<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="/resources/img/ML2.jpg"></div>   -->
+		<header class="name container-fluid p-0">
+			<nav class="navbar navbar-expand-lg">
+				<li class="navbar-brand" href="#gonzalo" id="gonzalo">
+					Gonzalo Betancourt
+				</li>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"
+						><i class="fas fa-bars text-white"></i
+					></span>
+				</button>
+				<!-- Collapsible content -->
+				<div class="collapse navbar-collapse pr-4" id="navbarNav">
+					<!-- Links -->
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#about-me"
+								>Home <span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/resources/pages/resume.html">Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#footer">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#education">Education</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#my-story">My Story</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<section class="container-fluid p-0" id="about-me">
+			<h2 class="text-center text-white font-weight-light text-uppercase">
+				About Me
+			</h2>
+			<div class="row">
+				<img
+					class=""
+					src="/resources/img/me.jpg"
+					alt="Picture of developer"
+					id="me"
+				/>
+				<p class="col-sm-8 col-lg-6 pl-5 text-white">
+					I am currently a senior at the University of Houston – Clear Lake,
+					majoring in computer science and will graduate this December. This
+					year, I focused on participating in internships and designing projects
+					using various front and back end tools. I recently completed an
+					internship at NASA where I developed 2 Python modules that were used
+					for machine learning. For my senior project, I am creating a sports
+					data API using machine learning for NBA game predictions. My proposal
+					was one of the four out of the 30 proposals to be selected.
+					<br />
+					<br />
+					My passion is designing web development or machine learning
+					applications. They may seem like two completely different fields, but
+					I find them to be very similar. They both allow me to play with
+					different ideas: through trial and error, I develop a product I am
+					ecstatic to share.
+				</p>
+				<p class="col-12 pl-5" id="web-ml">
+					<span>Web Development</span>
+					<span><i class="fas fa-plus p-1"></i></span>
+					<span>Machine Learning</span>
+				</p>
+			</div>
+		</section>
+		<section class="container-fluid p-0" id="projects">
+			<h2 class="text-center text-white font-weight-light text-uppercase">
+				Portfolio
+			</h2>
+			<!-- Use class container-fluid -->
+			<div class="container-fluid mt-5">
+				<div class="row mb-5 justify-content-center">
+					<div class="col-md-10 mr-lg-5 col-lg-5 project-tile p-0 mb-5">
+						<h3
+							class="display-3 text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title"
+						>
+							RGB Color Game
+							<span class="idea-from">Inspired by: Colt Steel</span>
+							<span class="idea-from"
+								>Used HTML, CSS, JavaScript &amp JQuery</span
+							>
+						</h3>
+						<!-- <p class="p-2 pb-4 m-0 bg-dark"> Put to practice HTML, CSS and JavaScript.
                     </p> -->
-                    <div class="tm-header-stripe w-100"></div>
-                    <a href="./resources/pages/guessColor.html" target="_blank"> <img class="img-fluid" img
-                            src="./resources/img/guessColor.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-10 col-lg-5 project-tile p-0">
-                    <h3
-                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
-                        Weather App <span class="idea-from">Inspired by: freeCodeCamp</span> <span class="idea-from">
-                            Used HTML, CSS, JavaScript, Node.js, Express &amp Handlebars</span>
-                    </h3>
-                    <div class="tm-header-stripe w-100"></div>
-                    <a href="https://gonzalo-weather-app.herokuapp.com/" target="_blank"> <img class="img-fluid"
-                            src="./resources/img/weath-app.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row mb-5 justify-content-center">
-                <div class="col-md-10 mr-lg-5 col-lg-5 project-tile p-0 mb-5">
-                    <h3
-                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
-                        Cat & Dog Image Classifier</h3>
-                    <div class="tm-header-stripe w-100"></div>
-                    <a href=""> <img class="img-fluid" src="./resources/img/template.jpeg" alt="">
-                    </a>
-                </div>
-                <div class="col-md-10 col-lg-5 project-tile p-0">
-                    <h3
-                        class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title">
-                        Sports Data API</h3>
-                    <div class="tm-header-stripe w-100"></div>
-                    <a href=""> <img class="img-fluid" img src="./resources/img/template.jpeg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+						<div class="tm-header-stripe w-100"></div>
+						<a href="./resources/pages/guessColor.html" target="_blank">
+							<img
+								class="img-fluid"
+								img
+								src="./resources/img/guessColor.png"
+								alt=""
+							/>
+						</a>
+					</div>
+					<div class="col-md-10 col-lg-5 project-tile p-0">
+						<h3
+							class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title"
+						>
+							Weather App
+							<span class="idea-from">Inspired by: freeCodeCamp</span>
+							<span class="idea-from">
+								Used HTML, CSS, JavaScript, Node.js, Express &amp
+								Handlebars</span
+							>
+						</h3>
+						<div class="tm-header-stripe w-100"></div>
+						<a
+							href="https://gonzalo-weather-app.herokuapp.com/"
+							target="_blank"
+						>
+							<img
+								class="img-fluid"
+								src="./resources/img/weath-app.jpg"
+								alt=""
+							/>
+						</a>
+					</div>
+				</div>
+				<div class="row mb-5 justify-content-center">
+					<div class="col-md-10 mr-lg-5 col-lg-5 project-tile p-0 mb-5">
+						<h3
+							class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title"
+						>
+							Cat & Dog Image Classifier
+						</h3>
+						<div class="tm-header-stripe w-100"></div>
+						<a href="">
+							<img
+								class="img-fluid"
+								src="./resources/img/template.jpeg"
+								alt=""
+							/>
+						</a>
+					</div>
+					<div class="col-md-10 col-lg-5 project-tile p-0">
+						<h3
+							class="display-3 text-center text-uppercase bg-dark d-flex flex-column justify-content-center align-content-center project-title"
+						>
+							Sports Data API
+						</h3>
+						<div class="tm-header-stripe w-100"></div>
+						<a href="">
+							<img
+								class="img-fluid"
+								img
+								src="./resources/img/template.jpeg"
+								alt=""
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="container-fluid p-0" id="education">
-        <h2 class="text-center text-white font-weight-light text-uppercase bg-dark">Education <i
-                class="fas fa-plus text-white"></i> Online Learning</h2>
-        <div class="container">
-            <div class="row pb-5">
-                <div class="col-11 pl-3">
-                    <h3 class="text-dark pt-3">Bachelor's in Computer Science </h3>
-                    <span>University of Houston - Clear Lake: Will Gradaute December 2020</span>
-                </div>
-            </div>
-            <div class="table-header">
-                <div class="row text-white" id="education-table">
-                    <div class="col-12" id="table-title">
-                        <h3>Online Courses</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-5">
-                        <p>Blue is completed</p>
-                    </div>
-                    <div class="col-5">
-                        <p>Gray is enrolled</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 key key1"></div>
-                    <div class="col-6 key key2"></div>
-                </div>
-            </div>
-            <div class="table-content">
-                <div class="coursera pt-2">
-                    <table class="col-11 text-dark font-weight-light mb-4" id="edu-table">
-                        <thead>
-                            <tr>
-                                <th class="course-name" scope="col">
-                                    <a href="https://www.coursera.org/specializations/web-design?" target="_blank">Web Design for Everybody</a>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th class="course-institution" scope="col">
-                                    University of Michigan
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td> Introduction to HTML</td></tr>
-                            <tr><td> Introduction to CSS3</td></tr>
-                            <tr><td> Interactivity with JavaScript</td></tr>
-                            <tr><td> Advanced Styling with Responsive Design</td></tr>
-                            <tr><td> Web Design for Everybody Capstone</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="freecodecamp pb-3">
-                    <table class="col-11 text-dark font-weight-light mb-4" id="edu-table">
-                        <thead>
-                            <tr>
-                                <th class="course-name" scope="col">
-                                    <a href="https://www.freecodecamp.org/learn" target="_blank">Responsive Web Design Certification</a>
-                                </th>
-                            </tr>
-                            <tr>
-                                <th class="course-institution" scope="col">
-                                    freeCodeCamp
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td> Basic HTML / HTML5 / CSS</td></tr>
-                            <tr><td> Applied Visual Design &amp; Accessebility</td></tr>
-                            <tr><td> Responsive Web Design</td></tr>
-                            <tr><td> CSS FlexBox &amp; Grid</td></tr>
-                            <tr><td> Responsive Web Design Projects</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>  
-        </div>
-    </section>
+		<section class="container-fluid p-0" id="education">
+			<h2
+				class="text-center text-white font-weight-light text-uppercase bg-dark"
+			>
+				Education <i class="fas fa-plus text-white"></i> Online Learning
+			</h2>
+			<div class="container">
+				<div class="row pb-5">
+					<div class="col-11 pl-3">
+						<h3 class="text-dark pt-3">Bachelor's in Computer Science</h3>
+						<span
+							>University of Houston - Clear Lake: Will Gradaute December
+							2020</span
+						>
+					</div>
+				</div>
+				<div class="table-header">
+					<div class="row text-white" id="education-table">
+						<div class="col-12" id="table-title">
+							<h3>Online Courses</h3>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-6">
+							<p>Gray is completed</p>
+						</div>
+						<div class="col-5">
+							<p>Blue is enrolled</p>
+						</div>
+					</div>
+					<div class="row pl-3 pr-3">
+						<div class="col-6 key key1 p-0 m-0"></div>
+						<div class="col-6 key key2 p-0 m-0"></div>
+					</div>
+				</div>
+				<div class="table-content">
+					<div class="coursera pt-2">
+						<table
+							class="col-12 text-dark font-weight-light mb-4"
+							id="edu-table"
+						>
+							<thead>
+								<tr>
+									<th class="course-name" scope="col">
+										<a
+											href="https://www.coursera.org/specializations/web-design?"
+											target="_blank"
+											>Web Design for Everybody</a
+										>
+									</th>
+								</tr>
+								<tr>
+									<th class="course-institution" scope="col">
+										University of Michigan
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Introduction to HTML</td>
+								</tr>
+								<tr>
+									<td>Introduction to CSS3</td>
+								</tr>
+								<tr>
+									<td>Interactivity with JavaScript</td>
+								</tr>
+								<tr>
+									<td>Advanced Styling with Responsive Design</td>
+								</tr>
+								<tr>
+									<td>Web Design for Everybody Capstone</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="freecodecamp pb-3">
+						<table
+							class="col-12 text-dark font-weight-light mb-4"
+							id="edu-table"
+						>
+							<thead>
+								<tr>
+									<th class="course-name" scope="col">
+										<a href="https://www.freecodecamp.org/learn" target="_blank"
+											>Responsive Web Design Certification</a
+										>
+									</th>
+								</tr>
+								<tr>
+									<th class="course-institution" scope="col">freeCodeCamp</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Basic HTML / HTML5 / CSS</td>
+								</tr>
+								<tr>
+									<td>Applied Visual Design &amp; Accessebility</td>
+								</tr>
+								<tr>
+									<td>Responsive Web Design</td>
+								</tr>
+								<tr>
+									<td>CSS FlexBox &amp; Grid</td>
+								</tr>
+								<tr>
+									<td>Responsive Web Design Projects</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="container-fluid p-0" id="my-story">
-        <h2 class="text-center text-white font-weight-light text-uppercase">My Story</h2>
-        <div class="container">
-            <div class="row pb-5">
-                <div class="col-lg-12">
-                    <p class="lead">
-                        <span class="ml-5">My</span> name is Gonzalo Betancourt, and I’m a senior studying Computer
-                        Science at the University of
-                        Houston – Clear Lake. I have no regrets about a pretty big life decision I made several years
-                        ago: moving from Washington state to Texas. I love it here!
-                    </p>
-                    <p class="lead">
-                        <span class="ml-5">Two</span> facts I wish were true: one, I am a Seattle Native (which I am
-                        not), two, I have loved
-                        computer science since I was 9 years old (which I didn’t).
-                    </p>
-                    <p class="lead"><span class="ml-5">I</span> arrived in Seattle when I was about 5 years old.
-                        Originally born in La
-                        Encarnacion, Villanueva,
-                        Zacatecas, Mexico (I know, it’s a mouth-full), a tiny town in the middle of nowhere where a
-                        small river literally divides the town in half. How small is the town? Let’s just say I am
-                        related to about half of the residents. So then we moved to the United States, and not just any
-                        city – Seattle! Talk about a shift in culture and landscape. My first few years in Seattle came
-                        with challenges. First, my elementary school did not have ESL (English as a Second Language)
-                        classes. Nevertheless, I moved up a grade every year despite not really understanding what was
-                        going on in class – until I reached 4th grade. I will never forget my 4th and 5th grade teacher,
-                        Ms. Susan Brown. She was the only elementary teacher that really showed interest in my success.
-                        She helped start the first ESL program at Medina Elementary in Bellevue WA, spent a few summers
-                        teaching me math, reading and writing and most importantly: she put me in a big brother program
-                        at school for one year. That big brother, Paul Bartelmas, became one of the most influential
-                        people in my life. If it wasn’t for those two people, I am sure I wouldn’t be where I am today.
-                    </p>
-                    <p class="lead"><span class="ml-5">And</span> as for loving computer science; I looked at my first
-                        lines of code several year
-                        ago while
-                        working at a small construction store in Seattle. The owner said the website needed an upgrade.
-                        He told me to look over the HTML/CSS files and see if I can change the background add images;
-                        spark the site a little bit. After 15 minutes of looking at text (I had never looked at any
-                        code), I told my manager I could not upgrade the website. Nevertheless, that moment of not being
-                        able to complete a task stayed on my mind. Even though I didn’t start programming at a very
-                        young age, I was always fascinated by how electronics worked. Growing up I took apart toys,
-                        radios, VCR’s and TV’s. Though I was able to fix most items, I often had left over screws when
-                        putting them back together. After finishing high school, I had my own computer. Naturally, I was
-                        eager to take it apart. I spent several weeks learning about the hardware and somewhere I
-                        read about Linux. So, I did what any curious kid would do, I reformatted the hard drive with
-                        Linux, then back to Windows then dual booting it with Windows and Linux. Soon after that, my
-                        curiosity about computers and software, along with my failure of not being able to upgrade a
-                        website lead me to learn Java. I spent about 4 months teaching myself how to program in Java. As
-                        I was searching for Java documentation online, I came across Python. I put Java aside and
-                        started learning Python. After one month of Python, I decided computer science was my passion.
-                    </p>
-                    <p class="lead">
-                        <span class="ml-5">I</span> love to solve problems. Whether it’s finding an efficient solution
-                        for a line of code or
-                        fixing something at home. I love the challenge of finding a way and discovering solutions.
-                        That’s why I love fixing electronics and the satisfaction that comes from seeing it work again.
-                        It’s why I study web development and machine learning to solve modern day problems. I can spend
-                        all day programming, documenting, learning, failing and doing it all over every day. I can now
-                        look at HTML, CSS, JavaScript and several other languages for web development. Now, I just think
-                        back and laugh at how I couldn’t upgrade a simple website. As long as there is a problem or
-                        challenge to overcome, I know it’s bound to be something I love.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+		<section class="container-fluid p-0" id="my-story">
+			<h2 class="text-center text-white font-weight-light text-uppercase">
+				My Story
+			</h2>
+			<div class="container">
+				<div class="row pb-5">
+					<div class="col-lg-12">
+						<p class="lead">
+							<span class="ml-5">My</span> name is Gonzalo Betancourt, and I’m a
+							senior studying Computer Science at the University of Houston –
+							Clear Lake. I have no regrets about a pretty big life decision I
+							made several years ago: moving from Washington State to Texas. I
+							love it here!
+						</p>
+						<p class="lead">
+							<span class="ml-5">Two</span> facts I wish were true:
+							<span style="display: inline-block; font-size: 3rem"> ...</span>
+						</p>
+						<p class="lead">
+							<a
+								class="click-here ml-5"
+								href="./resources/pages/myStory.html"
+								alt="My Story"
+								>Click</a
+							>
+							to Continue reading
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="container-fluid p-0" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul>
-                        <a href="https://github.com/gonzalob24" alt="Gonzalo's GitHub" target="_blank"><li class="contact"><i class="fab fa-github-alt"></i> GitHub</li></a>
-                        <a href="https://linkedin.com/in/gonzalo-b24" alt="Gonzalo's LinkedIn profile" target="_blank"><li class="contact"><i class="fab fa-linkedin"></i> LinkedIn</li></a>
-                        <a href="https://codepen.io/collection/Axkpgv" alt="Gonzalo's codepen collection from freeCodeCamp" target="_blank"><li class="contact"><i class="fab fa-codepen"></i> CodePen</li></a>
-                    </ul>
-                    <p class="pb-5">The best way to get a hold me is by email: <a class="contact"
-                            href="mailto:gonzalobetancourt@me.com">gonzalobetancourt@me.com</a></p>
-                </div>
-                <!-- <div class="col-lg-3">
+		<section class="container-fluid p-0" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<ul>
+							<a
+								href="https://github.com/gonzalob24"
+								alt="Gonzalo's GitHub"
+								target="_blank"
+								><li class="contact">
+									<i class="fab fa-github-alt"></i> GitHub
+								</li></a
+							>
+							<a
+								href="https://linkedin.com/in/gonzalo-b24"
+								alt="Gonzalo's LinkedIn profile"
+								target="_blank"
+								><li class="contact">
+									<i class="fab fa-linkedin"></i> LinkedIn
+								</li></a
+							>
+							<a
+								href="https://codepen.io/collection/Axkpgv"
+								alt="Gonzalo's codepen collection from freeCodeCamp"
+								target="_blank"
+								><li class="contact">
+									<i class="fab fa-codepen"></i> CodePen
+								</li></a
+							>
+						</ul>
+						<p class="pb-5">
+							The best way to get a hold me is by email:
+							<a class="contact" href="mailto:gonzalobetancourt@me.com"
+								>gonzalobetancourt@me.com</a
+							>
+						</p>
+					</div>
+					<!-- <div class="col-lg-3">
                     <p>Feel free to review some of <span id="my-code">my code</span></p>
                 </div> -->
-            </div>
-            <!-- <div id="go-top">
+				</div>
+				<!-- <div id="go-top">
                 <i class="fas fa-arrow-up"></i>
             </div> -->
-        </div>
-    </section>
-    <footer class="container-fluid p-0" id="footer-mobile">
-	    <nav>
-            <ul>
-                <li><a href="#about-me" class="navBtn" data-target="about-me">
-                    <img alt="Icon depicting a person." src="/resources/img/person-covid.svg">
-                    </a></li>
-                <li><a href="#projects" class="navBtn" data-target="projects">
-                    <img alt="Folder depicting projects." src="/resources/img/projects.svg">
-                    </a></li>
-                <li><a href="#education" class="navBtn" data-target="education">
-                    <img alt="Icon depicting a book." src="/resources/img/study.svg">
-                    </a></li>
-                <li><a href="#contact" class="navBtn" data-target="contact">
-                    <img alt="Icon depicting contact info." src="/resources/img/contact.svg">
-                    </a></li>
-            </ul>
-        </nav>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			</div>
+		</section>
+		<footer class="container-fluid p-0" id="footer-mobile">
+			<nav>
+				<ul>
+					<li>
+						<a href="#about-me" class="navBtn" data-target="about-me">
+							<img
+								alt="Icon depicting a person."
+								src="/resources/img/person-covid.svg"
+							/>
+						</a>
+					</li>
+					<li>
+						<a href="#projects" class="navBtn" data-target="projects">
+							<img
+								alt="Folder depicting projects."
+								src="/resources/img/projects.svg"
+							/>
+						</a>
+					</li>
+					<li>
+						<a href="#education" class="navBtn" data-target="education">
+							<img
+								alt="Icon depicting a book."
+								src="/resources/img/study.svg"
+							/>
+						</a>
+					</li>
+					<li>
+						<a href="#contact" class="navBtn" data-target="contact">
+							<img
+								alt="Icon depicting contact info."
+								src="/resources/img/contact.svg"
+							/>
+						</a>
+					</li>
+					<li>
+						<a
+							href="./resources/pages/resume.html"
+							class="navBtn"
+							data-target="resume"
+						>
+							<img
+								alt="Icon depicting contact info."
+								src="/resources/img/resume2.svg"
+							/>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./resources/js/parallax.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
-
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
