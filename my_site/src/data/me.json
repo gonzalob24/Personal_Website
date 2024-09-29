@@ -1,0 +1,43 @@
+{
+	"about_me": {
+		"me": [
+			"I am a Full Stack Developer currently living in Round Rock, Texas.",
+			"I love designing new projects and enjoy developing the backend as well the the UI.",
+			"I have experience working in both startups and established companies.",
+			"I’m deeply passionate about my career and always eager to learn new technologies.",
+			"In my free time I enjoy working out and coaching U7 and U12 girls soccer teams."
+		]
+	},
+	"portfolio": [
+		{
+			"name": "SportsAi",
+			"url": "https://sportsai.com",
+			"repo_url": "https://",
+			"image": "/work.jpg",
+			"alt": "sportsai",
+			"summary": "Sports betting",
+			"features": ["Sports Data"],
+			"tech_stack": ["JS", "Express", "React", "MongoDB", "HTML", "CSS"]
+		},
+		{
+			"name": "Weather App",
+			"url": "https://app/weather-app",
+			"repo_url": "https://github",
+			"image": "/weather-app.jpg",
+			"alt": "weather-app",
+			"summary": "Whats the weather like",
+			"features": ["Weather"],
+			"tech_stack": ["JS", "Express", "HTML", "CSS"]
+		},
+		{
+			"name": "RGB Color Game",
+			"url": "https://app/rgb-game",
+			"repo_url": "https://github",
+			"image": "/guessColor.png",
+			"alt": "RGB Game",
+			"summary": "Lets guess the color",
+			"features": ["Game"],
+			"tech_stack": ["JS", "HTML", "CSS"]
+		}
+	]
+}
