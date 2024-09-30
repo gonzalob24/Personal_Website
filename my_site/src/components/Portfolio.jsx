@@ -46,15 +46,16 @@ function Portfolio() {
 										flexDirection: 'column',
 										position: 'relative',
 										flex: {
-											lg: '1 1 400px',
+											lg: '1 1 600px',
 										},
-										height: '30vh',
 									}}
 								>
 									<Grid>
-										<ImageListItem key={project.features[0]}>
-											<img alt={project.alt} placeholder="blur" src={`${project.image}`} loading="lazy" />
-										</ImageListItem>
+										<ImageList>
+											<ImageListItem key={project.features[0]} cols={2} rows={1}>
+												<img alt={project.alt} placeholder="blur" src={`${project.image}`} loading="lazy" />
+											</ImageListItem>
+										</ImageList>
 									</Grid>
 									<Box
 										sx={{
@@ -94,7 +95,7 @@ function Portfolio() {
 									}}
 								>
 									<div>
-										<CustomLink gutterBottom href={project.projectUrl} rel="noopener" sx={{ display: 'inline-block' }} target="_blank" underline="hover" variant="h5">
+										<CustomLink gutterBottom href={project.projectUrl} rel="noopener" sx={{ display: 'inline-block' }} target="_blank" underline="hover" variant="h5" color="primary">
 											{project.name}
 										</CustomLink>
 										<Typography color="textSecondary" component="p" variant="subtitle1" marginLeft={2}>

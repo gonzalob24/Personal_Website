@@ -49,7 +49,7 @@ function LandingPage() {
 					</Box>
 					<Grid container spacing={2}>
 						<Grid>
-							<Button color="primary" href="#my_portfolio" size="large" variant="contained">
+							<Button color="primary" href="#portfolio" size="large" variant="contained">
 								My Work
 							</Button>
 						</Grid>

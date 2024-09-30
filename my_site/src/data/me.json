@@ -23,7 +23,7 @@
 			"name": "Weather App",
 			"url": "https://app/weather-app",
 			"repo_url": "https://github",
-			"image": "/weather-app.jpg",
+			"image": "/weather-app.png",
 			"alt": "weather-app",
 			"summary": "Whats the weather like",
 			"features": ["Weather"],
