@@ -4,7 +4,7 @@ import { Container, Divider, Typography, Button, List, ListItem, ListItemIcon, L
 import { Code, Description } from '@mui/icons-material';
 import Grid from '@mui/material/Grid2';
 import data from '../data/me.json';
-import skillLogos from '../data/skillIcons';
+import skillLogos from '../data/skills_icons';
 // import { SiHtml5 } from 'react-icons/si';
 
 // import skillIcons from './constants/skillIcons';

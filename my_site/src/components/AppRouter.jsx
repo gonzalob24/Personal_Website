@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from '../App';
-// import Resume from '../components/Resume';
 import NavBar from './NavBar';
 
 function AppRouter() {
@@ -9,7 +8,7 @@ function AppRouter() {
 			<NavBar />
 			<Routes>
 				<Route path="/" exact element={<App />} />
-				{/* <Route path="/resume/resume.pdf" element={<Resume />} /> */}
+				{/* <Route path="/portfolio/guess_color" element={<GuessColor />} /> */}
 			</Routes>
 		</BrowserRouter>
 	);

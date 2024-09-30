@@ -74,10 +74,10 @@ function Portfolio() {
 										}}
 									>
 										<ButtonGroup variant="contained">
-											<Button aria-label="Link to project GitHub repository" component="a" href={project.repoUrl} rel="noopener" startIcon={<GitHub />} target="_blank">
+											<Button aria-label="Link to project GitHub repository" component="a" href={project.repo_url} rel="noopener" startIcon={<GitHub />} target="_blank">
 												Repo
 											</Button>
-											<Button aria-label="Link to project live preview" component="a" href={project.projectUrl} rel="noopener" startIcon={<Visibility />} target="_blank">
+											<Button aria-label="Link to project live preview" component="a" href={project.url} rel="noopener" startIcon={<Visibility />} target="_blank">
 												Live
 											</Button>
 										</ButtonGroup>
@@ -115,8 +115,8 @@ function Portfolio() {
 												},
 											}}
 										>
-											{project.features.map((feature) => (
-												<ListItem key={feature[1]}>
+											{project.features.map((feature, i) => (
+												<ListItem key={i}>
 													<ListItemIcon sx={{ minWidth: 34 }}>
 														<ChevronRight color="secondary" />
 													</ListItemIcon>

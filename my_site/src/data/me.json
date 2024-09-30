@@ -13,30 +13,40 @@
 			"name": "SportsAi",
 			"url": "https://sportsai.com",
 			"repo_url": "https://",
-			"image": "/work.jpg",
+			"image": "/sportsAi.png",
 			"alt": "sportsai",
-			"summary": "Sports betting",
-			"features": ["Sports Data"],
+			"summary": "SportsAi uses NBA data to create game cards to display side by side statistics for a current match, leveraging AI to give users a prediction for the game winner.",
+			"features": ["NBA Data", "Game cards", "Game prediction", "Current schedule", "Current standings"],
 			"tech_stack": ["JS", "Express", "React", "MongoDB", "HTML", "CSS"]
 		},
 		{
 			"name": "Weather App",
-			"url": "https://app/weather-app",
-			"repo_url": "https://github",
+			"url": "https://weather-app-0tdz.onrender.com/",
+			"repo_url": "https://github.com/gonzalob24/weather-app",
 			"image": "/weather-app.png",
-			"alt": "weather-app",
-			"summary": "Whats the weather like",
-			"features": ["Weather"],
+			"alt": "weather_app",
+			"summary": "Find out whats the weather like. Enter a valid city or zip code.",
+			"features": ["Current weather", "Dynamic background image", "Weather conditions summary"],
+			"tech_stack": ["JS", "Express", "HTML", "CSS"]
+		},
+		{
+			"name": "Tetos Taqueria",
+			"url": "https://tetos-taqueria.onrender.com/",
+			"repo_url": "https://github.com/gonzalob24/Tetos_Taqueria",
+			"image": "/tetos_taqueria.png",
+			"alt": "Tetos_Restaurant",
+			"summary": "Tetos Taqueria responsive online menu",
+			"features": ["online menu", "Responsive images", "User reviews", "Contact us"],
 			"tech_stack": ["JS", "Express", "HTML", "CSS"]
 		},
 		{
 			"name": "RGB Color Game",
-			"url": "https://app/rgb-game",
-			"repo_url": "https://github",
+			"url": "https://guesscolor.onrender.com",
+			"repo_url": "https://guesscolor.onrender.com/",
 			"image": "/guessColor.png",
-			"alt": "RGB Game",
+			"alt": "RGB_Game",
 			"summary": "Lets guess the color",
-			"features": ["Game"],
+			"features": ["Game", "Guess the RGB Color"],
 			"tech_stack": ["JS", "HTML", "CSS"]
 		}
 	]

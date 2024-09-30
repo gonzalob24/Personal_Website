@@ -111,7 +111,7 @@ function NavBar() {
 						{pages.map((page) => {
 							let link = '#' + page.split(' ').join('_').toLowerCase();
 							return (
-								<CustomLink key={page} href={link} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', display: 'block' }}>
+								<CustomLink key={page} href={link} onClick={handleCloseNavMenu} sx={{ color: 'white' }}>
 									{page}
 								</CustomLink>
 							);
