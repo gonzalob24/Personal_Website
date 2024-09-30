@@ -1,5 +1,5 @@
 import { createTheme, responsiveFontSizes } from '@mui/material';
-import { cyan, pink } from '@mui/material/colors';
+import { purple, blue } from '@mui/material/colors';
 
 // export const roboto = Roboto({
 // 	weight: ['300', '400', '500', '700'],
@@ -13,8 +13,8 @@ const theme = responsiveFontSizes(
 	createTheme({
 		palette: {
 			mode: 'dark',
-			primary: cyan,
-			secondary: pink,
+			primary: blue,
+			secondary: purple,
 			error: {
 				main: '#ff6358',
 			},

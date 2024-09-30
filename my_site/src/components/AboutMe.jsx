@@ -12,7 +12,7 @@ import skillLogos from '../data/skillIcons';
 const LeftDivider = styled(Divider)(({ theme }) => ({
 	height: '4px',
 	width: '60px',
-	backgroundColor: theme.palette.secondary.main,
+	backgroundColor: theme.palette.secondary.dark,
 }));
 
 function AboutMe() {
