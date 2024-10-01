@@ -2,8 +2,6 @@ import { Box, Container, Typography, Card, CardContent, Chip, List, ListItem, Li
 import Grid from '@mui/material/Grid2';
 import { ChevronRight, GitHub, Visibility } from '@mui/icons-material';
 import CustomLink from './CustomLink';
-// import ShortCenteredDivider from '../ui/ShortCenteredDivider';
-// import getDataUrlWithShimmerEffect from '../../utils/getDataUrlWithShimmerEffect';
 
 import { styled } from '@mui/material/styles';
 import { Divider } from '@mui/material';
@@ -19,7 +17,7 @@ const CenteredDivider = styled(Divider)(({ theme }) => ({
 
 function Portfolio() {
 	return (
-		<Box component="section" id="portfolio" sx={{ pb: 8, pt: 10 }}>
+		<Box component="section" id="projects" sx={{ pb: 8, pt: 10 }}>
 			<Container>
 				<Typography gutterBottom align="center" component="h2" variant="h3">
 					Portfolio

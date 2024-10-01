@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
-import { Container, Button, Typography, colors } from '@mui/material';
+import { Container, Button, Typography } from '@mui/material';
 
 function LandingPage() {
 	return (

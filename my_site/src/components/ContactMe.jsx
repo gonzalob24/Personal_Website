@@ -1,5 +1,4 @@
 import { Box, Container, Typography, Avatar, Card, CardContent, IconButton } from '@mui/material';
-import Grid from '@mui/material/Grid2';
 import { styled } from '@mui/material/styles';
 import { Divider } from '@mui/material';
 import CustomLink from './CustomLink';
@@ -15,7 +14,7 @@ const CenteredDivider = styled(Divider)(({ theme }) => ({
 
 function ContactMe() {
 	return (
-		<Box component="section" id="my_contact">
+		<Box component="section" id="contact">
 			<Container maxWidth="sm">
 				<Typography gutterBottom align="center" component="h2" variant="h3">
 					Contact

@@ -8,32 +8,19 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import CustomLink from './CustomLink';
 import { Link } from '@mui/material';
-// import me from '/me.jpg?url';
-
-const pages = ['Projects', 'Resume', 'Contact', 'About Me', 'Education'];
+import data from '../data/me.json';
 
 function NavBar() {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
-	const [anchorElUser, setAnchorElUser] = React.useState(null);
 
 	const handleOpenNavMenu = (event) => {
 		setAnchorElNav(event.currentTarget);
 	};
-	const handleOpenUserMenu = (event) => {
-		setAnchorElUser(event.currentTarget);
-	};
 
 	const handleCloseNavMenu = () => {
 		setAnchorElNav(null);
-	};
-
-	const handleCloseUserMenu = () => {
-		setAnchorElUser(null);
 	};
 
 	return (
@@ -79,7 +66,7 @@ function NavBar() {
 							onClose={handleCloseNavMenu}
 							sx={{ display: { xs: 'block', md: 'none' } }}
 						>
-							{pages.map((page) => {
+							{data.navbar_pages.map((page) => {
 								let link = '#' + page.split(' ').join('_').toLocaleLowerCase();
 								return (
 									<CustomLink key={page} onClick={handleCloseNavMenu} href={link} sx={{ paddingBottom: '3px' }}>
@@ -109,8 +96,13 @@ function NavBar() {
 						Gonzalo
 					</Typography>
 					<Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-						{pages.map((page) => {
-							let link = '#' + page.split(' ').join('_').toLowerCase();
+						{data.navbar_pages.map((page) => {
+							let link = null;
+							if ('resume'.includes(page.toLocaleLowerCase())) {
+								link = '#about_me';
+							} else {
+								link = '#' + page.split(' ').join('_').toLowerCase();
+							}
 							return (
 								<CustomLink key={page} href={link} onClick={handleCloseNavMenu} sx={{ color: 'white' }}>
 									{page}
