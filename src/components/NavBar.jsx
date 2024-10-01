@@ -112,7 +112,7 @@ function NavBar() {
 					</Box>
 					<Box sx={{ flexGrow: 0 }}>
 						<Link href="#landing">
-							<Avatar alt="Gonzalo" src={'./me.jpg'} />
+							<Avatar alt="Gonzalo" src={'me.jpg'} />
 						</Link>
 					</Box>
 				</Toolbar>

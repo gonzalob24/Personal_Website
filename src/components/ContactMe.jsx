@@ -21,7 +21,7 @@ function ContactMe() {
 				</Typography>
 				<CenteredDivider />
 				<Box sx={{ display: 'flex', justifyContent: 'center', marginTop: 2 }}>
-					<Avatar sx={{ width: 200, height: 200 }} src={'/me.jpg'} />
+					<Avatar sx={{ width: 200, height: 200 }} src={'me.jpg'} />
 				</Box>
 				<Card sx={{ mb: 4, mt: 4 }}>
 					<CardContent>
