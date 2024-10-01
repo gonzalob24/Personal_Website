@@ -81,7 +81,7 @@ function NavBar() {
 							{pages.map((page) => {
 								let link = '#' + page.split(' ').join('_').toLocaleLowerCase();
 								return (
-									<CustomLink key={page} onClick={handleCloseNavMenu} href={link}>
+									<CustomLink key={page} onClick={handleCloseNavMenu} href={link} sx={{ paddingBottom: '3px' }}>
 										{page}
 									</CustomLink>
 								);
