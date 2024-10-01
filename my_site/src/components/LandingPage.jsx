@@ -24,7 +24,7 @@ function LandingPage() {
 					backgroundRepeat: 'no-repeat',
 					backgroundSize: 'cover',
 					// backgroundPosition: 'bottom -22rem',
-					zIndex: 1000,
+					// zIndex: 800,
 					opacity: 0.5,
 					// backgroundPosition: 'right 5rem bottom',
 				}}
@@ -45,7 +45,7 @@ function LandingPage() {
 					flexDirection: 'column',
 					justifyContent: 'center',
 					alignItems: 'center',
-					zIndex: 2000,
+					// zIndex: 1000,
 				}}
 			>
 				<Box marginBottom={5} opacity={1}>
