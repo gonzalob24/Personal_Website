@@ -27,7 +27,7 @@ function ContactMe() {
 				<Card sx={{ mb: 4, mt: 4 }}>
 					<CardContent>
 						<Typography color="textSecondary" component="p" variant="body2">
-							Im ready to work with you on new and exciting projects. Get in touch with me. Checkout my
+							Im ready to work with you on new and exciting project. Get in touch with me. Checkout my
 							<CustomLink href={'Gonzalo_resume.pdf'} rel="noopener" target="_blank" style={{ paddingLeft: '4px', paddingRight: '0' }}>
 								Resume
 							</CustomLink>
