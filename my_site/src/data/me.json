@@ -1,0 +1,54 @@
+{
+	"navbar_pages": ["Projects", "About Me", "Resume", "Contact"],
+	"about_me": {
+		"me": [
+			"I am a SOftware Engineer currently living in Round Rock, Texas.",
+			"I love designing new projects and enjoy developing the backend as well the the UI.",
+			"I have experience working in both startups and established companies.",
+			"I’m deeply passionate about my career and always eager to learn new technologies.",
+			"In my free time I enjoy working out and coaching U7 and U12 girls soccer teams."
+		]
+	},
+	"portfolio": [
+		{
+			"name": "SportsAi",
+			"url": "#",
+			"repo_url": "#",
+			"image": "/sportsAi.png",
+			"alt": "sportsai",
+			"summary": "SportsAi uses NBA data to create game cards to display side by side statistics for a current match, leveraging AI to give users a prediction for the game winner.",
+			"features": ["NBA Data", "Game cards", "Game prediction", "Current schedule", "Current standings"],
+			"tech_stack": ["JS", "Express", "React", "MongoDB", "HTML", "CSS"]
+		},
+		{
+			"name": "Weather App",
+			"url": "https://weather-app-0tdz.onrender.com/",
+			"repo_url": "https://github.com/gonzalob24/weather-app",
+			"image": "/weather-app.png",
+			"alt": "weather_app",
+			"summary": "Find out whats the weather like. Enter a valid city or zip code.",
+			"features": ["Current weather", "Dynamic background image", "Weather conditions summary"],
+			"tech_stack": ["JS", "Express", "HTML", "CSS"]
+		},
+		{
+			"name": "Tetos Taqueria",
+			"url": "https://tetos-taqueria.onrender.com/",
+			"repo_url": "https://github.com/gonzalob24/Tetos_Taqueria",
+			"image": "/tetos_taqueria.png",
+			"alt": "Tetos_Restaurant",
+			"summary": "Tetos Taqueria responsive online menu",
+			"features": ["online menu", "Responsive images", "User reviews", "Contact us"],
+			"tech_stack": ["JS", "Express", "HTML", "CSS"]
+		},
+		{
+			"name": "RGB Color Game",
+			"url": "https://guesscolor.onrender.com",
+			"repo_url": "https://guesscolor.onrender.com/",
+			"image": "/guessColor.png",
+			"alt": "RGB_Game",
+			"summary": "Lets guess the color",
+			"features": ["Game", "Guess the RGB Color"],
+			"tech_stack": ["JS", "HTML", "CSS"]
+		}
+	]
+}
