@@ -1,5 +1,5 @@
 {
-	"navbar_pages": ["Projects", "About Me", "Resume", "Contact", "Education"],
+	"navbar_pages": ["Projects", "About Me", "Resume", "Contact"],
 	"about_me": {
 		"me": [
 			"I am a SOftware Engineer currently living in Round Rock, Texas.",
