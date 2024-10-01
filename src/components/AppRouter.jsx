@@ -7,7 +7,7 @@ function AppRouter() {
 		<BrowserRouter>
 			<NavBar />
 			<Routes>
-				<Route path="/Personal_Website" exact element={<App />} />
+				<Route path="/" exact element={<App />} />
 			</Routes>
 		</BrowserRouter>
 	);
