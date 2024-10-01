@@ -95,7 +95,7 @@ function Portfolio() {
 									}}
 								>
 									<div>
-										<CustomLink gutterBottom href={project.projectUrl} rel="noopener" sx={{ display: 'inline-block' }} target="_blank" underline="hover" variant="h5" color="primary">
+										<CustomLink gutterBottom href={project.projectUrl} rel="noopener" sx={{ display: 'inline-block' }} target="_blank" variant="h5" color="primary">
 											{project.name}
 										</CustomLink>
 										<Typography color="textSecondary" component="p" variant="subtitle1" marginLeft={2}>

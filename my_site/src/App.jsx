@@ -3,7 +3,7 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import { ThemeProvider } from '@emotion/react';
 import theme from './styles/theme';
-import Contact from './components/Contact';
+import ContactMe from './components/ContactMe';
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 				<LandingPage />
 				<AboutMe />
 				<Portfolio />
-				<Contact />
+				<ContactMe />
 			</ThemeProvider>
 		</div>
 	);
