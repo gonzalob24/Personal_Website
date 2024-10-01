@@ -4,7 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"main": "main.jsx",
-	"homepage": "https://gonzalob24.github.io/Personal_Website",
+	"homepage": "https://gonzalob24.github.io/Personal_Website/",
 	"scripts": {
 		"dev": "vite --port 3000",
 		"build": "vite build",
