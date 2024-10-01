@@ -6,4 +6,8 @@ export default defineConfig({
 	base: '/Personal_Website/',
 
 	plugins: [react()],
+	esbuild: {
+		jsxFactory: 'React.createElement',
+		jsxFragment: 'React.Fragment',
+	},
 });
