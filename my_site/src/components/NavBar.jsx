@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import CustomLink from './CustomLink';
+import { Link } from '@mui/material';
 // import me from '/me.jpg?url';
 
 const pages = ['Projects', 'Resume', 'Contact', 'About Me', 'Education'];
@@ -118,7 +119,9 @@ function NavBar() {
 						})}
 					</Box>
 					<Box sx={{ flexGrow: 0 }}>
-						<Avatar alt="Gonzalo" src={'/me.jpg'} />
+						<Link href="#landing">
+							<Avatar alt="Gonzalo" src={'/me.jpg'} />
+						</Link>
 					</Box>
 				</Toolbar>
 			</Container>

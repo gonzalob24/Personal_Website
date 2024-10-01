@@ -6,6 +6,8 @@ function LandingPage() {
 	return (
 		<>
 			<Container
+				component={'section'}
+				id="landing"
 				sx={{
 					minHeight: {
 						xs: '100vh',
