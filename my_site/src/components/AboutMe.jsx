@@ -12,7 +12,7 @@ import skillLogos from '../data/skills_icons';
 const LeftDivider = styled(Divider)(({ theme }) => ({
 	height: '4px',
 	width: '60px',
-	backgroundColor: theme.palette.secondary.dark,
+	backgroundColor: theme.palette.secondary.light,
 }));
 
 function AboutMe() {
@@ -52,7 +52,7 @@ function AboutMe() {
 							Take a look at my resume here.
 						</Typography>
 
-						<Button color="primary" endIcon={<Description />} href="Gonzalo_resume.pdf" rel="noopener" size="large" target="_blank" variant="outlined">
+						<Button color="secondary" endIcon={<Description />} href="Gonzalo_resume.pdf" rel="noopener" size="large" target="_blank" variant="outlined">
 							Resume
 						</Button>
 					</Grid>
@@ -84,8 +84,10 @@ function AboutMe() {
 											xs: '0 0.4rem',
 											md: '0 1.3rem 0 0',
 										},
+										transition: 'transform 0.7s ease-in-out',
 										'&:hover': {
-											color: 'primary.light',
+											color: 'secondary.light',
+											transform: 'rotate(360deg)',
 										},
 									}}
 								>
