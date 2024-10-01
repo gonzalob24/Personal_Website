@@ -7,14 +7,12 @@ import ContactMe from './components/ContactMe';
 
 function App() {
 	return (
-		<div>
-			<ThemeProvider theme={theme}>
-				<LandingPage />
-				<AboutMe />
-				<Portfolio />
-				<ContactMe />
-			</ThemeProvider>
-		</div>
+		<ThemeProvider theme={theme}>
+			<LandingPage />
+			<AboutMe />
+			<Portfolio />
+			<ContactMe />
+		</ThemeProvider>
 	);
 }
 

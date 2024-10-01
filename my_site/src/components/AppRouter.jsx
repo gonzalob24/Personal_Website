@@ -8,7 +8,6 @@ function AppRouter() {
 			<NavBar />
 			<Routes>
 				<Route path="/" exact element={<App />} />
-				{/* <Route path="/portfolio/guess_color" element={<GuessColor />} /> */}
 			</Routes>
 		</BrowserRouter>
 	);

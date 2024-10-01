@@ -14,9 +14,6 @@ const CenteredDivider = styled(Divider)(({ theme }) => ({
 }));
 
 function ContactMe() {
-	const handleSubmit = () => {
-		//
-	};
 	return (
 		<Box component="section" id="my_contact">
 			<Container maxWidth="sm">
