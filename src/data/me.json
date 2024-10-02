@@ -43,7 +43,7 @@
 		{
 			"name": "RGB Color Game",
 			"url": "https://guesscolor.onrender.com",
-			"repo_url": "https://guesscolor.onrender.com/",
+			"repo_url": "https://github.com/gonzalob24/GuessColor",
 			"image": "guessColor.png",
 			"alt": "RGB_Game",
 			"summary": "Lets guess the color",

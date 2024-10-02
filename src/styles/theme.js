@@ -19,9 +19,6 @@ const theme = responsiveFontSizes(
 				main: '#ff6358',
 			},
 		},
-		// typography: {
-		// 	fontFamily: roboto.style.fontFamily,
-		// },
 		breakpoints: {
 			values: {
 				xs: 0,

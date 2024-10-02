@@ -12,6 +12,7 @@ import CustomLink from './CustomLink';
 import { Link } from '@mui/material';
 import data from '../data/me.json';
 import { useScrollTrigger, Slide } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 
 function HideNavBarOnScroll(props) {
 	const { children } = props;
@@ -26,7 +27,7 @@ function HideNavBarOnScroll(props) {
 
 function NavBar() {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
-
+	const theme = useTheme();
 	const handleOpenNavMenu = (event) => {
 		setAnchorElNav(event.currentTarget);
 	};
@@ -37,7 +38,7 @@ function NavBar() {
 
 	return (
 		<HideNavBarOnScroll>
-			<AppBar position="fixed" margin={0} elevation={0}>
+			<AppBar position="fixed" margin={0} elevation={0} style={{ backgroundColor: theme.palette.primary[500] }} id="gg">
 				<Container maxWidth="xl">
 					<Toolbar disableGutters>
 						{/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
