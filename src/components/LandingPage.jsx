@@ -22,7 +22,7 @@ function LandingPage() {
 					flexDirection: 'column',
 					justifyContent: 'center',
 					alignItems: 'center',
-					backgroundImage: { lg: `url(${'board.avif'})` },
+					backgroundImage: { md: `url(${'board.avif'})` },
 					backgroundRepeat: 'no-repeat',
 					backgroundSize: 'cover',
 					// backgroundPosition: 'bottom -22rem',
