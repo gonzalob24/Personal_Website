@@ -67,9 +67,16 @@ function NavBar() {
 							sx={{ display: { xs: 'block', md: 'none' } }}
 						>
 							{data.navbar_pages.map((page) => {
-								let link = '#' + page.split(' ').join('_').toLocaleLowerCase();
+								let link = null;
+								{
+									if ('resume'.includes(page.toLocaleLowerCase())) {
+										link = 'Gonzalo_resume.pdf';
+									} else {
+										link = '#' + page.split(' ').join('_').toLowerCase();
+									}
+								}
 								return (
-									<CustomLink key={page} onClick={handleCloseNavMenu} href={link} sx={{ paddingBottom: '3px' }}>
+									<CustomLink textAlign="center" key={page} onClick={handleCloseNavMenu} href={link} sx={{ padding: '0 4px', margin: '0 4px' }} target={link.includes('resume') ? '_blank' : ''}>
 										{page}
 									</CustomLink>
 								);
@@ -99,12 +106,12 @@ function NavBar() {
 						{data.navbar_pages.map((page) => {
 							let link = null;
 							if ('resume'.includes(page.toLocaleLowerCase())) {
-								link = '#about_me';
+								link = 'Gonzalo_resume.pdf';
 							} else {
 								link = '#' + page.split(' ').join('_').toLowerCase();
 							}
 							return (
-								<CustomLink key={page} href={link} onClick={handleCloseNavMenu} sx={{ color: 'white' }}>
+								<CustomLink key={page} href={link} onClick={handleCloseNavMenu} sx={{ color: 'white' }} target={link.includes('resume') ? '_blank' : ''}>
 									{page}
 								</CustomLink>
 							);
