@@ -1,7 +1,6 @@
-import { Box, BottomNavigation, Typography, Link, Button } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { FaArrowCircleUp } from 'react-icons/fa';
-import CustomLink from './CustomLink';
 
 function Footer() {
 	return (
