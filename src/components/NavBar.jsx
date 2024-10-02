@@ -88,7 +88,7 @@ function NavBar() {
 						variant="h5"
 						noWrap
 						component="a"
-						href="#app-bar-with-responsive-menu"
+						href="#landing"
 						sx={{
 							mr: 2,
 							display: { xs: 'flex', md: 'none' },

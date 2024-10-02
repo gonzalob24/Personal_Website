@@ -65,12 +65,12 @@ function LandingPage() {
 					</Typography>
 					<Grid container spacing={2} my={3}>
 						<Grid>
-							<Button color="secondary" href="#portfolio" size="large" variant="contained">
+							<Button color="secondary" href="#projects" size="large" variant="contained">
 								My Work
 							</Button>
 						</Grid>
 						<Grid>
-							<Button color="secondary" href="#my_contact" size="large" variant="outlined">
+							<Button color="secondary" href="#contact" size="large" variant="outlined">
 								Contact Me
 							</Button>
 						</Grid>
