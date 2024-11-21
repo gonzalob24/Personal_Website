@@ -7,7 +7,7 @@ import theme from '../styles/theme';
 
 function AppRouter() {
 	return (
-		<BrowserRouter basename="/Personal_Website">
+		<BrowserRouter>
 			<ThemeProvider theme={theme}>
 				<CssBaseline />
 				<NavBar />
