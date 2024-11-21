@@ -7,12 +7,16 @@ import theme from '../styles/theme';
 
 function AppRouter() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/Personal_Website">
 			<ThemeProvider theme={theme}>
 				<CssBaseline />
 				<NavBar />
 				<Routes>
-					<Route path="/" exact element={<App />} />
+					<Route
+						path="/"
+						exact
+						element={<App />}
+					/>
 				</Routes>
 			</ThemeProvider>
 		</BrowserRouter>
